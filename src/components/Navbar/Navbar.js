@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="flex justify-between px-10 bg-blue-900 py-5">
           <div className="flex items-center gap-16">
             <h1 className="text-5xl text-orange-400 font-bold flex -mt-3 items-center">Qtemu</h1>
-            <ul className="flex gap-16 text-white focus:outline-none">
+            <ul className="flex gap-16 text-white text-lg focus:outline-none">
                 <li><a href="/">Create Meetup</a></li>
                 <li><a href="/">Explore</a></li>
             </ul>

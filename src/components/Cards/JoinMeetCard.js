@@ -8,7 +8,7 @@ const JoinCard = () => {
         <section>
             <div className="mx-10 p-5 border bg-white shadow-md mt-6">
             <div className="flex gap-10">
-              <img src="/logo-hacktiv8.png" alt="logo hactiv8" className="w-[180px] bg-blue-400"/>
+              <img src="/logo-hacktiv8.png" alt="logo hactiv8" className="w-[180px] bg-orange-400"/>
               <div className="flex flex-col items-start">
                 <Title customStyle={"font-bold text-3xl -ml-16 mb-3"} title={"Hacktiv8 Meetup"}/>
                 <TableForm/>

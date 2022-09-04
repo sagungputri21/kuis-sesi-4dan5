@@ -2,7 +2,7 @@ import React from "react"
 
 const dataTabel = [
     {
-        label: "Location",
+        label: "Location ",
         data: "Jakarta Selatan, Indonesia"
     },
     {

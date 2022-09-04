@@ -1,6 +1,6 @@
 import React from "react";
 
-const PastMeetCard = () => {
+const MessageCard = () => {
     return (
       <div>
 
@@ -8,4 +8,4 @@ const PastMeetCard = () => {
     )
 }
 
-export default PastMeetCard;
+export default MessageCard;
