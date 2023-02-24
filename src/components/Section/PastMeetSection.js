@@ -1,9 +1,8 @@
 import React from "react";
 import PastMeetCard from "../Cards/PastMeetCard";
 import Title from "../CustomTitle/CustomTitle";
-// import { data } from "../../../data/pastMeet.json"
 
-const PastMeetSection = () => {
+const PastMeetSection = (props) => {
     return (
         <div className="mx-10 mt-10">
         <Title 
@@ -12,14 +11,14 @@ const PastMeetSection = () => {
             more="See all"
         />
         <div className="mx-8">
-            {/* {data.map((data) => {
+            {props.data.map((data) => {
                 <PastMeetCard
                     id={data.id}
                     date={data.date}
                     partner={data.partner}
                     participants={data.count}
                 />
-            })} */}
+            })}
             <PastMeetCard
                     id={"#39"}
                     date={"27 November 2017"}
